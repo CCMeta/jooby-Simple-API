@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: app.UnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in app.UnitTest
+app.UnitTest.welcome  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Welcome to Jooby!> but was: <Welcome to Booby !1>
+	at app.UnitTest.lambda$welcome$0(UnitTest.java:14)
+	at app.UnitTest.welcome(UnitTest.java:13)
+
