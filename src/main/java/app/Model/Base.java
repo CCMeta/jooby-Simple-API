@@ -1,11 +1,11 @@
-package app.Common;
+package app.Model;
 
 import java.sql.*;
 import java.util.Map;
 
 import io.jooby.Jooby;
 
-public class Database {
+public class Base {
 
     private static Connection connection;
 
